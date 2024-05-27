@@ -1,0 +1,45 @@
+
+.footer_section {
+  display: flex;
+  justify-content: center;
+  background: #303F4F;
+  padding: 70px;
+}
+
+.footer_main_div {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.menu-footer-div{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.svg_footer {
+  width: 25px;
+  margin-right: 20px;
+  color: white;
+}
+
+.link_infos{
+  color: white;
+}
+
+#titre_infos{
+  color: white;
+}
+
+@media (max-width: 900px) {
+
+  .footer_section {
+    display: flex;
+    justify-content: center;
+    background: #303F4F;
+    padding: 70px;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.container-contact {
+  background-color: #515EF7; /* Yellow background */
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: auto;
+  margin: auto;
+}
+.contact-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1a202c; /* Dark gray text */
+}
+.email-link {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff; /* White background */
+  border-radius: 9999px; /* Fully rounded corners */
+  padding: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: #1a202c; /* Dark gray text */
+  font-size: 14px;
+}
+.email-link:hover {
+  background-color: #f3f4f6; /* Light gray background on hover */
+  transform: scale(1.05); /* Slight scale on hover */
+  transition: transform 0.3s, background-color 0.3s; /* Smooth transition for transform and background color */
+}
+.icon {
+  width: 24px; /* Icon size */
+  height: 24px;
+  margin-right: 12px;
+  fill: #4a5568; /* Icon color */
+}
